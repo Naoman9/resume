@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Naoman Mohiuddin - Full Stack Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .page-container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 30px 40px;
+            background-color: white;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #3182ce;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            color: #2c5282;
+            font-weight: 600;
+        }
+        
+        .skill-pill {
+            background-color: #ebf4ff;
+            border-radius: 999px;
+            padding: 4px 12px;
+            margin: 4px;
+            font-size: 0.85rem;
+            color: #2c5282;
+            display: inline-block;
+            border: 1px solid #bee3f8;
+        }
+        
+        .timeline-item {
+            padding-left: 24px;
+            position: relative;
+            margin-bottom: 20px;
+        }
+        
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #3182ce;
+        }
+        
+        .timeline-item::after {
+            content: "";
+            position: absolute;
+            left: 5px;
+            top: 20px;
+            bottom: -20px;
+            width: 2px;
+            background: #e2e8f0;
+        }
+        
+        .timeline-item:last-child::after {
+            display: none;
+        }
+        
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="page-container shadow-lg">
+        <!-- Header -->
+        <header class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-1">MUHAMMAD NAOMAN MOHIUDDIN</h1>
+            <h2 class="text-xl font-medium text-blue-700 mb-3">Full Stack Developer | MERN Stack | Flutter</h2>
+            <div class="flex justify-center items-center flex-wrap text-gray-600">
+                <div class="mx-3 flex items-center">
+                    <i class="fas fa-phone mr-2 text-blue-600"></i>
+                    <span>+92-332-6264310</span>
+                </div>
+                <div class="mx-3 flex items-center">
+                    <i class="fas fa-envelope mr-2 text-blue-600"></i>
+                    <span>naoman.muhammad@gmail.com</span>
+                </div>
+                <div class="mx-3 flex items-center">
+                    <i class="fas fa-map-marker-alt mr-2 text-blue-600"></i>
+                    <span>Johar Town, Lahore, Pakistan</span>
+                </div>
+                <div class="mx-3 flex items-center">
+                    <i class="fab fa-linkedin mr-2 text-blue-600"></i>
+                    <span>linkedin.com/in/muhammad-naoman-mohiuddin-029098164</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section class="section">
+            <h2 class="section-title">Professional Summary</h2>
+            <p class="text-justify">
+                Full Stack Developer with over 4 years of experience in web and mobile application development, specializing in MERN stack (MongoDB, Express.js, React.js, Node.js) and Flutter. Proficient in building responsive, scalable, and performance-optimized applications with strong focus on UI/UX design and API integrations. Experienced in collaborating with cross-functional teams and mentoring junior developers. Demonstrated success in delivering complex projects from conception to deployment, with a problem-solving mindset and commitment to writing clean, maintainable code.
+            </p>
+        </section>
+
+        <!-- Skills -->
+        <section class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="mb-4">
+                <h3 class="font-semibold text-gray-700 mb-2">Front-End Development:</h3>
+                <div>
+                    <span class="skill-pill">React.js</span>
+                    <span class="skill-pill">JavaScript</span>
+                    <span class="skill-pill">TypeScript</span>
+                    <span class="skill-pill">HTML5</span>
+                    <span class="skill-pill">CSS3</span>
+                    <span class="skill-pill">Bootstrap</span>
+                    <span class="skill-pill">Tailwind CSS</span>
+                    <span class="skill-pill">Material UI</span>
+                    <span class="skill-pill">Redux</span>
+                    <span class="skill-pill">Responsive Design</span>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h3 class="font-semibold text-gray-700 mb-2">Back-End Development:</h3>
+                <div>
+                    <span class="skill-pill">Node.js</span>
+                    <span class="skill-pill">Express.js</span>
+                    <span class="skill-pill">MongoDB</span>
+                    <span class="skill-pill">RESTful APIs</span>
+                    <span class="skill-pill">JWT Authentication</span>
+                    <span class="skill-pill">Firebase</span>
+                    <span class="skill-pill">.NET</span>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h3 class="font-semibold text-gray-700 mb-2">Mobile Development:</h3>
+                <div>
+                    <span class="skill-pill">Flutter</span>
+                    <span class="skill-pill">Dart</span>
+                    <span class="skill-pill">React Native</span>
+                    <span class="skill-pill">Mobile UI/UX</span>
+                    <span class="skill-pill">Cross-platform Development</span>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h3 class="font-semibold text-gray-700 mb-2">Development Tools & Others:</h3>
+                <div>
+                    <span class="skill-pill">Git & GitHub</span>
+                    <span class="skill-pill">VS Code</span>
+                    <span class="skill-pill">Unity3D</span>
+                    <span class="skill-pill">C#</span>
+                    <span class="skill-pill">WebSockets</span>
+                    <span class="skill-pill">Agile Methodology</span>
+                    <span class="skill-pill">CI/CD</span>
+                    <span class="skill-pill">Testing & Debugging</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section class="section">
+            <h2 class="section-title">Professional Experience</h2>
+            
+            <div class="timeline-item">
+                <div class="flex justify-between mb-1">
+                    <h3 class="font-semibold text-lg">Freelance Full Stack Developer</h3>
+                    <span class="text-gray-600">Feb 2024 - Present</span>
+                </div>
+                <p class="italic text-gray-600 mb-2">Self-Employed, Lahore, Pakistan</p>
+                <ul class="list-disc pl-5 text-justify">
+                    <li>Develop full-stack web applications using MERN stack (MongoDB, Express.js, React.js, Node.js) with responsive UI and optimized performance</li>
+                    <li>Build cross-platform mobile applications with Flutter, integrating RESTful APIs and implementing complex state management</li>
+                    <li>Create real-time multiplayer applications with WebSockets and Node.js for interactive user experiences</li>
+                    <li>Implement authentication systems using JWT, OAuth, and Firebase for secure user access control</li>
+                    <li>Mentor junior developers in web and mobile development best practices, focusing on code quality and performance</li>
+                </ul>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="flex justify-between mb-1">
+                    <h3 class="font-semibold text-lg">Full Stack Developer</h3>
+                    <span class="text-gray-600">Feb 2023 - Jan 2024</span>
+                </div>
+                <p class="italic text-gray-600 mb-2">Finz Games, Lahore, Pakistan</p>
+                <ul class="list-disc pl-5 text-justify">
+                    <li>Developed interactive web applications with React.js and integrated them with Node.js backend services</li>
+                    <li>Designed and implemented RESTful APIs for client-server communication, ensuring efficient data exchange</li>
+                    <li>Created responsive user interfaces with optimized components and state management using Redux</li>
+                    <li>Utilized MongoDB for database management, implementing efficient data structures and queries</li>
+                    <li>Built real-time features using WebSockets for enhanced user interaction and gaming experiences</li>
+                    <li>Collaborated with cross-functional teams to ensure seamless integration between front-end and back-end systems</li>
+                </ul>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="flex justify-between mb-1">
+                    <h3 class="font-semibold text-lg">Flutter Developer</h3>
+                    <span class="text-gray-600">Feb 2022 - Oct 2022</span>
+                </div>
+                <p class="italic text-gray-600 mb-2">Almoiz Industries, Lahore, Pakistan</p>
+                <ul class="list-disc pl-5 text-justify">
+                    <li>Developed and maintained multiple Flutter applications for cross-platform mobile deployment</li>
+                    <li>Designed and implemented RESTful API integrations for seamless data exchange between mobile apps and backend services</li>
+                    <li>Created responsive and intuitive user interfaces following material design principles</li>
+                    <li>Implemented state management solutions using Provider and Bloc patterns for complex application workflows</li>
+                    <li>Utilized .NET and JavaScript technologies for backend support and full-stack development requirements</li>
+                    <li>Collaborated with UI/UX designers and backend developers to ensure cohesive product development</li>
+                </ul>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="flex justify-between mb-1">
+                    <h3 class="font-semibold text-lg">Unity Developer (Training Program)</h3>
+                    <span class="text-gray-600">Nov 2022 - Jan 2023</span>
+                </div>
+                <p class="italic text-gray-600 mb-2">Game Train, Lahore, Pakistan</p>
+                <ul class="list-disc pl-5 text-justify">
+                    <li>Completed intensive training in application development focusing on C# programming and object-oriented design</li>
+                    <li>Gained hands-on experience with UI integration, API connections, and front-end functionality</li>
+                    <li>Developed skills in creating responsive and interactive user interfaces for various platforms</li>
+                    <li>Learned advanced software architecture patterns applicable to both game and web development</li>
+                </ul>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="flex justify-between mb-1">
+                    <h3 class="font-semibold text-lg">Software Engineering Intern</h3>
+                    <span class="text-gray-600">July 2021 - Sep 2021</span>
+                </div>
+                <p class="italic text-gray-600 mb-2">Programmers Force, Lahore, Pakistan</p>
+                <ul class="list-disc pl-5 text-justify">
+                    <li>Gained experience in Linux environments and command-line operations</li>
+                    <li>Developed tools using Bash and Python scripting for automated workflows and system optimization</li>
+                    <li>Conducted web penetration testing and security audits on various web applications</li>
+                    <li>Created comprehensive security documentation and guidelines for development teams</li>
+                    <li>Assisted in implementing firewall solutions using Iptables for enhanced system security</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section">
+            <h2 class="section-title">Key Projects</h2>
+            
+            <div class="mb-4">
+                <h3 class="font-semibold text-blue-700">E-Commerce Platform (MERN Stack)</h3>
+                <p class="text-justify">
+                    Developed a full-featured e-commerce platform with React.js frontend and Node.js/Express backend. Implemented user authentication, product catalog with filtering, shopping cart functionality, payment gateway integration, and admin dashboard for inventory management. Utilized MongoDB for database and Redux for state management.
+                </p>
+            </div>
+            
+            <div class="mb-4">
+                <h3 class="font-semibold text-blue-700">Task Management Application (Flutter & Firebase)</h3>
+                <p class="text-justify">
+                    Built a cross-platform task management application using Flutter and Dart with Firebase integration for real-time data synchronization. Implemented user authentication, task creation/editing, deadline notifications, and collaborative features. Utilized Provider pattern for state management and Firebase Cloud Functions for backend logic.
+                </p>
+            </div>
+            
+            <div class="mb-4">
+                <h3 class="font-semibold text-blue-700">Real-time Chat Application (MERN & Socket.io)</h3>
+                <p class="text-justify">
+                    Created a real-time messaging platform using React.js, Node.js, Express, and MongoDB, with Socket.io for instant communication. Implemented features including private messaging, group chats, message notifications, user presence indicators, and message encryption for privacy.
+                </p>
+            </div>
+            
+            <div class="mb-4">
+                <h3 class="font-semibold text-blue-700">Social Media Dashboard (React & Redux)</h3>
+                <p class="text-justify">
+                    Designed and developed a comprehensive social media management dashboard with React.js and Redux, allowing users to schedule posts, monitor engagement analytics, and manage multiple social media accounts from a single interface. Integrated with various social media APIs and implemented responsive design for cross-device usage.
+                </p>
+            </div>
+            
+            <div>
+                <h3 class="font-semibold text-blue-700">Multiplayer Game Platform (Node.js & WebSockets)</h3>
+                <p class="text-justify">
+                    Developed the backend infrastructure for a multiplayer gaming platform using Node.js and WebSockets, supporting real-time interaction between thousands of concurrent users. Designed scalable architecture with efficient data synchronization protocols and implemented matchmaking algorithms for optimal player pairing.
+                </p>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="mb-2">
+                <div class="flex justify-between">
+                    <h3 class="font-semibold">Bachelor of Science in Software Engineering</h3>
+                    <span>2017 - 2021</span>
+                </div>
+                <p>COMSATS University, Lahore, Pakistan</p>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="section">
+            <h2 class="section-title">Certifications</h2>
+            <ul class="list-disc pl-5">
+                <li>Unity Game Development – Game Train (2023)</li>
+                <li>Ethical Hacking Training – Programmers Force (2021)</li>
+                <li>Advanced React and Redux – Udemy</li>
+                <li>Flutter Development Bootcamp – App Brewery</li>
+                <li>MongoDB for JavaScript Developers – MongoDB University</li>
+            </ul>
+        </section>
+
+        <!-- Languages -->
+        <section class="section">
+            <h2 class="section-title">Languages</h2>
+            <div class="flex gap-8">
+                <div>
+                    <span class="font-semibold">English:</span> Fluent
+                </div>
+                <div>
+                    <span class="font-semibold">Urdu:</span> Native
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
